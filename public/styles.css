@@ -1,0 +1,44 @@
+.index{
+    padding-top: 100px;
+    padding-left: 50px;
+    text-align: center;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #00aaff, #00ffaa);
+    background-size: 400% 400%;
+    animation: waterAnimation 8s ease infinite;
+}
+
+@keyframes waterAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+.essay{
+    font-size: 35px;
+    padding-top: 30px;
+    text-align: center;
+}
+.container1{
+    margin-bottom: 50px;
+ 
+  display: flex;
+
+  width: 1500px;
+  justify-content: center;
+}
+
+.gap1{
+    gap:1cm;
+}
+.gap2{
+    gap:1cm;
+}
